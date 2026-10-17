@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "query": "Show me all the process names",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Show me all the process names",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_165136/01_show-me-all-the-process-names.txt",
+    "return_code": 0,
+    "timed_out": false
+  },
+  {
+    "index": 2,
+    "query": "Give me the PID of cmd.exe",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Give me the PID of cmd.exe",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_165136/02_give-me-the-pid-of-cmd-exe.txt",
+    "return_code": 0,
+    "timed_out": false
+  }
+]

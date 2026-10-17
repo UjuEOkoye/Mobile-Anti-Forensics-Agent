@@ -1,0 +1,15 @@
+[project]
+name = "langgraph-basic"
+version = "0.1.0"
+description = "Basic console LangGraph project with Ollama support"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph>=0.2.0",
+  "langchain-ollama>=0.2.0",
+  "python-dotenv>=1.0.1"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

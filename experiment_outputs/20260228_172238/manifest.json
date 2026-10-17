@@ -1,0 +1,66 @@
+[
+  {
+    "index": 1,
+    "query": "Is there evidence of a new service installation? If not, say none.",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Is there evidence of a new service installation? If not, say none.",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/01_is-there-evidence-of-a-new-service-installation-if-not-say-none.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 2,
+    "query": "Is there evidence of a registry Run key modification by the experiment? If not, say none.",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Is there evidence of a registry Run key modification by the experiment? If not, say none.",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/02_is-there-evidence-of-a-registry-run-key-modification-by-the-experiment-if-not-sa.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 3,
+    "query": "Is there evidence of evil.exe running? Use tool evidence only.",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Is there evidence of evil.exe running? Use tool evidence only.",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/03_is-there-evidence-of-evil-exe-running-use-tool-evidence-only.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 4,
+    "query": "For the experiment registry key, return the value named 'Marker' (key path + value).",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. For the experiment registry key, return the value named 'Marker' (key path + value).",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/04_for-the-experiment-registry-key-return-the-value-named-marker-key-path-value.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 5,
+    "query": "Find an experiment-created HKCU Software key consistent with the script (key path).",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Find an experiment-created HKCU Software key consistent with the script (key path).",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/05_find-an-experiment-created-hkcu-software-key-consistent-with-the-script-key-path.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 6,
+    "query": "For that notepad PID, report handle count (count only).",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. For that notepad PID, report handle count (count only).",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/06_for-that-notepad-pid-report-handle-count-count-only.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 7,
+    "query": "For that notepad PID, list loaded DLL module names (names only).",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. For that notepad PID, list loaded DLL module names (names only).",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/07_for-that-notepad-pid-list-loaded-dll-module-names-names-only.txt",
+    "return_code": 1,
+    "timed_out": false
+  },
+  {
+    "index": 8,
+    "query": "Dump cmd.exe and then show its loaded DLL module names (names only).",
+    "query_with_snapshot": "Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Dump cmd.exe and then show its loaded DLL module names (names only).",
+    "output_file": "/home/student/projects/lanchain-project/lang-graph-basic/experiment_outputs/20260228_172238/08_dump-cmd-exe-and-then-show-its-loaded-dll-module-names-names-only.txt",
+    "return_code": 1,
+    "timed_out": false
+  }
+]

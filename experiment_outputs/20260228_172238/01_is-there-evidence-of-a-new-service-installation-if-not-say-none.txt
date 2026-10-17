@@ -1,0 +1,18 @@
+Query: Memory snapshot: /home/student/projects/lanchain-project/lang-graph-basic/vol3-tools/WindowsSnapshot4.vmem. Is there evidence of a new service installation? If not, say none.
+Command: /home/student/miniconda3/bin/python3 -m app.console --debug --max-steps 6
+Return code: 1
+
+=== STDOUT ===
+
+
+=== STDERR ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/student/projects/lanchain-project/lang-graph-basic/app/console.py", line 5, in <module>
+    from app.graph import graph
+  File "/home/student/projects/lanchain-project/lang-graph-basic/app/graph.py", line 6, in <module>
+    from app.relevant_field_selector import get_required_fields_from_json_object, projected_json
+  File "/home/student/projects/lanchain-project/lang-graph-basic/app/relevant_field_selector.py", line 6, in <module>
+    from langchain_ollama import ChatOllama
+ModuleNotFoundError: No module named 'langchain_ollama'

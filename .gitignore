@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+vol3-tools/Challenge.tar.xz
+vol3-tools/wget-log
